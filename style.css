@@ -1,3 +1,5 @@
+/* Remove HTML default tag styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,62 +7,45 @@
 }
 
 ul {
-    list-style-type: none;
     display: flex;
     gap: 24px;
+    list-style-type: none;
 }
 
 a {
     text-decoration: none;
 }
 
-.section-1 {
+/* Colors and font styles */
+
+.dark-background {
     background-color: #1f2937;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    height: 530px;
 }
 
-header {
-    width: 55%;
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    padding-top: 20px;
-}
-
-nav, .hero {
-    display: flex;
-    justify-content: space-between;
-}
-
-#logo {
-    color: #f9f4f8;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-#hero-title {
-    color: #f9f4f8;
-    font-weight: 700;
-    font-size: 48px;
-}
-
-#hero-text, a {
-    font-size: 18px;
+.text {
     color: #e5e7eb;
+    font-size: 18px;
 }
 
-.hero .left {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 44%;
-    gap: 8px;
+.title {
+    color: #f9f4f8;
+    font-weight: 700;
+    font-size: 24px;
 }
+
+.content-text {
+    color: #1f2937;
+    font-size: 36px;
+}
+
+/* Button customization */
 
 .button { 
-    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 35px;
     background-color: #3882f6;
     border-radius: 10px;
     font-size: 18px;
@@ -71,23 +56,56 @@ nav, .hero {
     cursor: pointer;
 }
 
-.hero .right {
-    width: 50%;
-    background-color: #787b80;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    color: #f9f4f8;
+#cta-button {
+    border: 2px solid white;
 }
 
-.section-2, .section-3 {
+/* Section 1 */
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    height: 530px;
+}
+
+nav, .hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    gap: 100px;
+    padding-top: 20px;
+}
+
+#hero-title {
+    font-size: 48px;
+}
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    width: 44%;
+    gap: 8px;
+}
+
+.hero .right {
+    display: flex;
+    width: 50%;
+    background-color: #787b80;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Section 2 */
+
+.section-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.section-2 {
     height: 480px;
 }
 
@@ -112,29 +130,37 @@ nav, .hero {
 .square {
     display: flex;
     flex-direction: column;
-    flex-basis: 163px;
+    width: 163px;
     gap: 10px;
 }
 
 .info {
-    width: 55%;
     display: flex;
+    width: 55%;
     flex-direction: column;
     text-align: center;
 }
 
 .info-title {
-    color: #1f2937;
-    font-size: 36px;
     font-weight: 700;
     margin: 50px 0px;
 }
 
-blockquote {
-    width: 42%;
+/* Section 3 */
+
+.section-3 {
     display: flex;
     flex-direction: column;
-    font-size: 36px;
+    align-items: center;
+    justify-content: center;
+    height: 430px;
+    background-color: #e5e7eb;
+}
+
+blockquote {
+    display: flex;
+    width: 42%;
+    flex-direction: column;
     font-style: italic;
     font-weight: 300;
 }
@@ -145,10 +171,41 @@ cite {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
+    margin-right: 30px;
 }
 
-.section-3 {
-    background-color: #e5e7eb;
+/* Section 4 */
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    height: 430px;
+    height: 350px;
+}
+
+.cta {
+    display: flex;
+    width: 55%;
+    height: 40%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-content {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }

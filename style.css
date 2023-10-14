@@ -23,7 +23,7 @@ a {
 }
 
 header {
-    width: 50%;
+    width: 55%;
     display: flex;
     flex-direction: column;
     gap: 100px;
@@ -38,12 +38,12 @@ nav, .hero {
 #logo {
     color: #f9f4f8;
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 #hero-title {
     color: #f9f4f8;
-    font-weight: 900;
+    font-weight: 700;
     font-size: 48px;
 }
 
@@ -55,18 +55,18 @@ nav, .hero {
 .hero .left {
     display: flex;
     flex-direction: column;
-    flex-basis: 47%;
+    flex-basis: 44%;
     gap: 8px;
 }
 
 .button { 
-    width: 30%;
+    width: 28%;
     background-color: #3882f6;
     border-radius: 10px;
     font-size: 18px;
     color: #f9f4f8;
     font-weight: bold;
-    padding: 10px;
+    padding: 8px;
     border: none;
     cursor: pointer;
 }
@@ -81,17 +81,20 @@ nav, .hero {
     color: #f9f4f8;
 }
 
-.section-2 {
+.section-2, .section-3 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.section-2 {
     height: 480px;
 }
 
 .illustration {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 40px;
 }
 
 .img-square {
@@ -114,7 +117,7 @@ nav, .hero {
 }
 
 .info {
-    width: 50%;
+    width: 55%;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -123,6 +126,29 @@ nav, .hero {
 .info-title {
     color: #1f2937;
     font-size: 36px;
-    font-weight: 700px;
+    font-weight: 700;
     margin: 50px 0px;
+}
+
+blockquote {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+cite {
+    display: flex;
+    justify-content: right;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.section-3 {
+    background-color: #e5e7eb;
+    justify-content: center;
+    height: 430px;
 }

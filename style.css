@@ -65,7 +65,7 @@ a {
 .section-1 {
     display: flex;
     justify-content: center;
-    height: 530px;
+    padding: 20px 0px 140px 0px;
 }
 
 nav, .hero {
@@ -78,7 +78,6 @@ header {
     flex-direction: column;
     width: 55%;
     gap: 100px;
-    padding-top: 20px;
 }
 
 #hero-title {
@@ -106,7 +105,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 480px;
+    padding-bottom: 130px;
 }
 
 .illustration {
@@ -153,7 +152,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 430px;
+    padding: 115px 0px;
     background-color: #e5e7eb;
 }
 
@@ -181,7 +180,6 @@ cite {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 350px;
 }
 
 .cta {
@@ -193,6 +191,8 @@ cite {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 100px 0px;
+    padding: 50px 0px;
 }
 
 .cta-content {
